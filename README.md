@@ -6,7 +6,7 @@
 - Exibição de uma seção de **produtos mais vendidos** para destacar os itens mais populares.
 - Exibição de **produtos em destaque** na página inicial, com foco em lançamentos e promoções especiais.
 - Página de categoria com **vitrine de produtos paginada**, exibindo todos os produtos da categoria, com filtros para refinar a busca.
-- Filtros por tamanho, cor, faixa de preço e outros atributos dos produtos.
+- Filtros por tamanho, cor e faixa de preço.
 - Página de produto com **informações detalhadas do item**, incluindo imagens, descrições e variações de tamanho.
 - Opção de escolher o **tamanho** do produto de vestuário antes de adicionar ao carrinho.
 - Botão de "comprar" em destaque na página de produto, direcionando o usuário para o fechamento do pedido.
