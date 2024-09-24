@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Baby</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- Começo Nav -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <a class="logo" href="index.html">Loja Infantil</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mx-auto search-container">
+                    <div class="input-group">
+                        <input type="text" class="form-control search-bar" placeholder="O que você está procurando?">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link efCor" href="#">
+                            <i class="fas fa-user"></i> Entre ou Cadastre-se
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-heart"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Barra de Categorias -->
+        <div class="category-bar txtSbM">
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-white" href="VitrineProd.html">Meninos</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="VitrineProd.html">Meninas</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="VitrineProd.html">Bebês</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- Fim Nav -->
+
+    <!-- Carrossel de Imagens -->
+    <section class="carousel">
+        <div class="carousel-container">
+            <button class="prev">&#60;</button>
+            <div class="slides">
+                <div class="slide active">
+                    <img src="https://images.tcdn.com.br/img/img_prod/1209997/1701971898_20.jpg" alt="Slide 1">
+                </div>
+                <div class="slide">
+                    <img src="https://images.tcdn.com.br/img/img_prod/1209997/1702297503_tudo_para_meninas.jpg"
+                        alt="Slide 2">
+                </div>
+                <div class="slide">
+                    <img src="https://images.tcdn.com.br/img/img_prod/1209997/1702066910_25.jpg" alt="Slide 3">
+                </div>
+            </div>
+            <button class="next">&#62;</button>
+        </div>
+        <div class="indicators">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+    <!-- Informações da Loja -->
+    <section class="info">
+        <div class="info-item">
+            <i class="fas fa-shipping-fast"></i>
+            <p>Entregas / Todo o Brasil</p>
+        </div>
+        <div class="info-item">
+            <i class="fas fa-lock"></i>
+            <p>Site 100% Seguro</p>
+        </div>
+        <div class="info-item">
+            <i class="fas fa-gift"></i>
+            <p>Frete Grátis / São Paulo</p>
+        </div>
+        <div class="info-item">
+            <i class="fas fa-credit-card"></i>
+            <p>Parcelas em até 12x</p>
+        </div>
+    </section>
+
+
+
+    <!-- Carrossel de Cards -->
+    <h1 class="txtVnds">Mais Vendidos</h1>
+    <section class="product-carousel">
+        <div class="product-carousel-container">
+            <button class="prev-card">&#60;</button>
+            <div class="product-cards">
+
+                <div class="product-card">
+                    <a class="" href="PgProdutos.html">
+                        <div class="product-image-container">
+                            <img src="https://cdn.awsli.com.br/600x700/1680/1680458/produto/282669759/img_1985-j68mpv2e44.jpeg"
+                                alt="Conjunto - Azul">
+                        </div>
+                        <div class="product-info">
+                            <p>Conjunto - Azul</p>
+                            <p class="price">R$ 169,00</p>
+                            <p class="installment">até 3x de R$ 56,33 sem juros</p>
+                            <p class="pix">ou R$ 160,55 via Pix</p>
+                        </div>
+                        <button class="buy-button">Comprar</button>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a class="" href="PgProdutos.html">
+                        <div class="product-image-container">
+                            <img src="https://cdn.awsli.com.br/600x700/1680/1680458/produto/282669759/img_1985-j68mpv2e44.jpeg"
+                                alt="Conjunto - Azul">
+                        </div>
+                        <div class="product-info">
+                            <p>Conjunto - Azul</p>
+                            <p class="price">R$ 169,00</p>
+                            <p class="installment">até 3x de R$ 56,33 sem juros</p>
+                            <p class="pix">ou R$ 160,55 via Pix</p>
+                        </div>
+                        <button class="buy-button">Comprar</button>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a class="" href="PgProdutos.html">
+                        <div class="product-image-container">
+                            <img src="https://cdn.awsli.com.br/600x700/1680/1680458/produto/282669759/img_1985-j68mpv2e44.jpeg"
+                                alt="Conjunto - Azul">
+                        </div>
+                        <div class="product-info">
+                            <p>Conjunto - Azul</p>
+                            <p class="price">R$ 169,00</p>
+                            <p class="installment">até 3x de R$ 56,33 sem juros</p>
+                            <p class="pix">ou R$ 160,55 via Pix</p>
+                        </div>
+                        <button class="buy-button">Comprar</button>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a class="" href="PgProdutos.html">
+                        <div class="product-image-container">
+                            <img src="https://cdn.awsli.com.br/600x700/1680/1680458/produto/282669759/img_1985-j68mpv2e44.jpeg"
+                                alt="Conjunto - Azul">
+                        </div>
+                        <div class="product-info">
+                            <p>Conjunto - Azul</p>
+                            <p class="price">R$ 169,00</p>
+                            <p class="installment">até 3x de R$ 56,33 sem juros</p>
+                            <p class="pix">ou R$ 160,55 via Pix</p>
+                        </div>
+                        <button class="buy-button">Comprar</button>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a class="" href="PgProdutos.html">
+                        <div class="product-image-container">
+                            <img src="https://cdn.awsli.com.br/600x700/1680/1680458/produto/282669759/img_1985-j68mpv2e44.jpeg"
+                                alt="Conjunto - Azul">
+                        </div>
+                        <div class="product-info">
+                            <p>Conjunto - Azul</p>
+                            <p class="price">R$ 169,00</p>
+                            <p class="installment">até 3x de R$ 56,33 sem juros</p>
+                            <p class="pix">ou R$ 160,55 via Pix</p>
+                        </div>
+                        <button class="buy-button">Comprar</button>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a class="" href="PgProdutos.html">
+                        <div class="product-image-container">
+                            <img src="https://cdn.awsli.com.br/600x700/1680/1680458/produto/282669759/img_1985-j68mpv2e44.jpeg"
+                                alt="Conjunto - Azul">
+                        </div>
+                        <div class="product-info">
+                            <p>Conjunto - Azul</p>
+                            <p class="price">R$ 169,00</p>
+                            <p class="installment">até 3x de R$ 56,33 sem juros</p>
+                            <p class="pix">ou R$ 160,55 via Pix</p>
+                        </div>
+                        <button class="buy-button">Comprar</button>
+                    </a>
+                </div>
+            </div>
+            <button class="next-card">&#62;</button>
+        </div>
+    </section>
+    <!-- Cards Produtos Destaques -->
+<h1 class="txtVnds">Destaques</h1>
+<section class="product-carousel featured-products">
+    <div class="container">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="product-card">
+                    <a href="PgProdutos.html">
+                        <div class="product-image-container">
+                            <img src="https://cdn.awsli.com.br/600x700/1680/1680458/produto/282669759/img_1985-j68mpv2e44.jpeg"
+                                alt="Conjunto - Azul">
+                        </div>
+                        <div class="product-info">
+                            <p>Conjunto - Azul</p>
+                            <p class="price">R$ 169,00</p>
+                            <p class="installment">até 3x de R$ 56,33 sem juros</p>
+                            <p class="pix">ou R$ 160,55 via Pix</p>
+                        </div>
+                        <button class="buy-button">Comprar</button>
+                    </a>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="product-card">
+                    <a href="PgProdutos.html">
+                        <div class="product-image-container">
+                            <img src="https://cdn.awsli.com.br/600x700/1680/1680458/produto/282669759/img_1985-j68mpv2e44.jpeg"
+                                alt="Conjunto - Azul">
+                        </div>
+                        <div class="product-info">
+                            <p>Conjunto - Azul</p>
+                            <p class="price">R$ 169,00</p>
+                            <p class="installment">até 3x de R$ 56,33 sem juros</p>
+                            <p class="pix">ou R$ 160,55 via Pix</p>
+                        </div>
+                        <button class="buy-button">Comprar</button>
+                    </a>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="product-card">
+                    <a href="PgProdutos.html">
+                        <div class="product-image-container">
+                            <img src="https://cdn.awsli.com.br/600x700/1680/1680458/produto/282669759/img_1985-j68mpv2e44.jpeg"
+                                alt="Conjunto - Azul">
+                        </div>
+                        <div class="product-info">
+                            <p>Conjunto - Azul</p>
+                            <p class="price">R$ 169,00</p>
+                            <p class="installment">até 3x de R$ 56,33 sem juros</p>
+                            <p class="pix">ou R$ 160,55 via Pix</p>
+                        </div>
+                        <button class="buy-button">Comprar</button>
+                    </a>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="product-card">
+                    <a href="PgProdutos.html">
+                        <div class="product-image-container">
+                            <img src="https://cdn.awsli.com.br/600x700/1680/1680458/produto/282669759/img_1985-j68mpv2e44.jpeg"
+                                alt="Conjunto - Azul">
+                        </div>
+                        <div class="product-info">
+                            <p>Conjunto - Azul</p>
+                            <p class="price">R$ 169,00</p>
+                            <p class="installment">até 3x de R$ 56,33 sem juros</p>
+                            <p class="pix">ou R$ 160,55 via Pix</p>
+                        </div>
+                        <button class="buy-button">Comprar</button>
+                    </a>
+                </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="product-card">
+                    <a href="PgProdutos.html">
+                        <div class="product-image-container">
+                            <img src="https://cdn.awsli.com.br/600x700/1680/1680458/produto/282669759/img_1985-j68mpv2e44.jpeg"
+                                alt="Conjunto - Azul">
+                        </div>
+                        <div class="product-info">
+                            <p>Conjunto - Azul</p>
+                            <p class="price">R$ 169,00</p>
+                            <p class="installment">até 3x de R$ 56,33 sem juros</p>
+                            <p class="pix">ou R$ 160,55 via Pix</p>
+                        </div>
+                        <button class="buy-button">Comprar</button>
+                    </a>
+                </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="product-card">
+                    <a href="PgProdutos.html">
+                        <div class="product-image-container">
+                            <img src="https://cdn.awsli.com.br/600x700/1680/1680458/produto/282669759/img_1985-j68mpv2e44.jpeg"
+                                alt="Conjunto - Azul">
+                        </div>
+                        <div class="product-info">
+                            <p>Conjunto - Azul</p>
+                            <p class="price">R$ 169,00</p>
+                            <p class="installment">até 3x de R$ 56,33 sem juros</p>
+                            <p class="pix">ou R$ 160,55 via Pix</p>
+                        </div>
+                        <button class="buy-button">Comprar</button>
+                    </a>
+                </div>
+            </div>
+            <!-- Card 7 -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="product-card">
+                    <a href="PgProdutos.html">
+                        <div class="product-image-container">
+                            <img src="https://cdn.awsli.com.br/600x700/1680/1680458/produto/282669759/img_1985-j68mpv2e44.jpeg"
+                                alt="Conjunto - Azul">
+                        </div>
+                        <div class="product-info">
+                            <p>Conjunto - Azul</p>
+                            <p class="price">R$ 169,00</p>
+                            <p class="installment">até 3x de R$ 56,33 sem juros</p>
+                            <p class="pix">ou R$ 160,55 via Pix</p>
+                        </div>
+                        <button class="buy-button">Comprar</button>
+                    </a>
+                </div>
+            </div>
+            <!-- Card 8 -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="product-card">
+                    <a href="PgProdutos.html">
+                        <div class="product-image-container">
+                            <img src="https://cdn.awsli.com.br/600x700/1680/1680458/produto/282669759/img_1985-j68mpv2e44.jpeg"
+                                alt="Conjunto - Azul">
+                        </div>
+                        <div class="product-info">
+                            <p>Conjunto - Azul</p>
+                            <p class="price">R$ 169,00</p>
+                            <p class="installment">até 3x de R$ 56,33 sem juros</p>
+                            <p class="pix">ou R$ 160,55 via Pix</p>
+                        </div>
+                        <button class="buy-button">Comprar</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+<footer class="text-center text-lg-start bg-dark text-white p-5">
+    <!-- Parte única do rodapé -->
+    <div class="container p-3">
+      <div class="row">
+        <!-- Coluna sobre a loja -->
+        <div class="col-lg-4 col-md-6 mb-2 mb-md-0">
+          <h5 class="text-uppercase">Sobre Nós</h5>
+          <p>
+            Loja Baby é especializada em roupas e acessórios para bebês e crianças. Oferecemos produtos de alta qualidade para garantir o conforto e estilo dos pequenos.
+          </p>
+        </div>
+  
+        <!-- Coluna links úteis -->
+        <div class="col-lg-4 col-md-6 mb-2 mb-md-0">
+          <h5 class="text-uppercase">Links úteis</h5>
+          <ul class="list-unstyled">
+            <li><a href="#!" class="text-white">Início</a></li>
+            <li><a href="#!" class="text-white">Promoções</a></li>
+            <li><a href="#!" class="text-white">Contato</a></li>
+            <li><a href="#!" class="text-white">Política de Privacidade</a></li>
+          </ul>
+        </div>
+  
+        <!-- Coluna contato -->
+        <div class="col-lg-4 col-md-12 mb-2 mb-md-0">
+          <h5 class="text-uppercase">Contato</h5>
+          <ul class="list-unstyled">
+            <li><i class="fas fa-phone-alt"></i> (11) 98765-4321</li>
+            <li><i class="fas fa-envelope"></i> contato@lojababy.com</li>
+            <li><i class="fas fa-map-marker-alt"></i> Rua das Flores, 123, São Paulo</li>
+          </ul>
+        </div>
+      </div>
+  
+      <!-- Redes sociais -->
+      <div class="footer-social text-center mt-2">
+        <section class="mb-2">
+          <a class="btn btn-outline-light btn-social m-1" href="#" role="button"><i class="fab fa-facebook-f"></i></a>
+          <a class="btn btn-outline-light btn-social m-1" href="#" role="button"><i class="fab fa-instagram"></i></a>
+          <a class="btn btn-outline-light btn-social m-1" href="#" role="button"><i class="fab fa-whatsapp"></i></a>
+        </section>
+      </div>
+  
+      <!-- Direitos reservados -->
+      <div class="text-center p-2 text-white">
+        © 2024 Loja Baby. Todos os direitos reservados.
+      </div>
+    </div>
+  </footer>
+  
+  
+    
+    <script src="js/card.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

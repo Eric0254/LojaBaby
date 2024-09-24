@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Baby - Categoria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/vitrine.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <!-- Nav -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <a class="logo" href="index.html">Loja Infantil</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mx-auto search-container">
+                    <div class="input-group">
+                        <input type="text" class="form-control search-bar" placeholder="O que você está procurando?">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link efCor" href="#">
+                            <i class="fas fa-user"></i> Entre ou Cadastre-se
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-heart"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="category-bar txtSbM">
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-white" href="VitrineProd.html">Meninos</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="VitrineProd.html">Meninas</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="VitrineProd.html">Bebês</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- Fim Nav -->
+    <!-- Inicio Filtro -->
+    <div class="container mt-4">
+        <div class="row">
+            <aside class="col-md-3">
+                <h5>Filtros</h5>
+                <div class="filter-item mb-3">
+                    <label for="filter-price">Faixa de Preço:</label>
+                    <select id="filter-price" class="form-select">
+                        <option value="">Todos</option>
+                        <option value="0-100">R$ 0 - R$ 100</option>
+                        <option value="100-200">R$ 100 - R$ 200</option>
+                        <option value="200-300">R$ 200 - R$ 300</option>
+                    </select>
+                </div>
+                <div class="filter-item mb-3">
+                    <label for="filter-size">Tamanho:</label>
+                    <select id="filter-size" class="form-select">
+                        <option value="">Todos</option>
+                        <option value="P">P</option>
+                        <option value="M">M</option>
+                        <option value="G">G</option>
+                        <option value="GG">GG</option>
+                    </select>
+                </div>
+                <div class="filter-item mb-3">
+                    <label for="filter-color">Cor:</label>
+                    <select id="filter-color" class="form-select">
+                        <option value="">Todas</option>
+                        <option value="azul">Azul</option>
+                        <option value="rosa">Rosa</option>
+                        <option value="verde">Verde</option>
+                        <option value="amarelo">Amarelo</option>
+                    </select>
+                </div>
+                <a href="#" class="clear-filters">Limpar Filtros</a>
+            </aside>
+            <div class="col-md-9">
+                <div class="row" id="product-list">
+                    <div class="col-12 col-md-4 col-lg-4 mb-4 product" data-price="169" data-size="G" data-color="azul">
+                        <div class="product-card custom-card">
+                            <a href="PgProdutos.html">
+                                <div class="product-image-container">
+                                    <img src="https://cdn.awsli.com.br/600x700/1680/1680458/produto/282669759/img_1985-j68mpv2e44.jpeg"
+                                        alt="Conjunto Les Amis - Azul">
+                                </div>
+                                <div class="product-info">
+                                    <p class="custom-title">Conjunto Les Amis - Azul</p>
+                                    <p class="price">R$ 169,00</p>
+                                    <p class="installment">até 3x de R$ 56,33 sem juros</p>
+                                    <p class="pix">ou R$ 160,55 via Pix</p>
+                                </div>
+                                <button class="buy-button custom-btn">Comprar</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-lg-4 mb-4 product" data-price="89" data-size="M" data-color="rosa">
+                        <div class="product-card custom-card">
+                            <a href="PgProdutos.html">
+                                <div class="product-image-container">
+                                    <img src="https://via.placeholder.com/150" alt="Camisa Estampada - Rosa">
+                                </div>
+                                <div class="product-info">
+                                    <p class="custom-title">Camisa Estampada - Rosa</p>
+                                    <p class="price">R$ 89,00</p>
+                                    <p class="installment">até 2x de R$ 44,50 sem juros</p>
+                                    <p class="pix">ou R$ 85,00 via Pix</p>
+                                </div>
+                                <button class="buy-button custom-btn">Comprar</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-lg-4 mb-4 product" data-price="249" data-size="G"
+                        data-color="verde">
+                        <div class="product-card custom-card">
+                            <a href="PgProdutos.html">
+                                <div class="product-image-container">
+                                    <img src="https://via.placeholder.com/150" alt="Calça Jeans - Verde">
+                                </div>
+                                <div class="product-info">
+                                    <p class="custom-title">Calça Jeans - Verde</p>
+                                    <p class="price">R$ 249,00</p>
+                                    <p class="installment">até 5x de R$ 49,80 sem juros</p>
+                                    <p class="pix">ou R$ 240,00 via Pix</p>
+                                </div>
+                                <button class="buy-button custom-btn">Comprar</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 mb-4 product" data-price="169" data-size="G" data-color="azul">
+                        <div class="product-card custom-card">
+                            <a href="PgProdutos.html">
+                                <div class="product-image-container">
+                                    <img src="https://cdn.awsli.com.br/600x700/1680/1680458/produto/282669759/img_1985-j68mpv2e44.jpeg"
+                                        alt="Conjunto Les Amis - Azul">
+                                </div>
+                                <div class="product-info">
+                                    <p class="custom-title">Conjunto Les Amis - Azul</p>
+                                    <p class="price">R$ 169,00</p>
+                                    <p class="installment">até 3x de R$ 56,33 sem juros</p>
+                                    <p class="pix">ou R$ 160,55 via Pix</p>
+                                </div>
+                                <button class="buy-button custom-btn">Comprar</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-lg-4 mb-4 product" data-price="89" data-size="M" data-color="rosa">
+                        <div class="product-card custom-card">
+                            <a href="PgProdutos.html">
+                                <div class="product-image-container">
+                                    <img src="https://via.placeholder.com/150" alt="Camisa Estampada - Rosa">
+                                </div>
+                                <div class="product-info">
+                                    <p class="custom-title">Camisa Estampada - Rosa</p>
+                                    <p class="price">R$ 89,00</p>
+                                    <p class="installment">até 2x de R$ 44,50 sem juros</p>
+                                    <p class="pix">ou R$ 85,00 via Pix</p>
+                                </div>
+                                <button class="buy-button custom-btn">Comprar</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-lg-4 mb-4 product" data-price="249" data-size="G"
+                        data-color="verde">
+                        <div class="product-card custom-card">
+                            <a href="PgProdutos.html">
+                                <div class="product-image-container">
+                                    <img src="https://via.placeholder.com/150" alt="Calça Jeans - Verde">
+                                </div>
+                                <div class="product-info">
+                                    <p class="custom-title">Calça Jeans - Verde</p>
+                                    <p class="price">R$ 249,00</p>
+                                    <p class="installment">até 5x de R$ 49,80 sem juros</p>
+                                    <p class="pix">ou R$ 240,00 via Pix</p>
+                                </div>
+                                <button class="buy-button custom-btn">Comprar</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="no-products-message" style="display: none;" class="alert alert-danger">Nenhum produto
+                    encontrado.</div>
+            </div>
+
+        </div>
+    </div>
+    <div class="pagination-container">
+        <nav>
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Próximo</a></li>
+            </ul>
+        </nav>
+    </div>
+    <footer class="text-center text-lg-start bg-dark text-white p-5">
+        <div class="container p-3">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-2 mb-md-0">
+                    <h5 class="text-uppercase">Sobre Nós</h5>
+                    <p>
+                        Loja Baby é especializada em roupas e acessórios para bebês e crianças. Oferecemos produtos de
+                        alta qualidade para garantir o conforto e estilo dos pequenos.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-2 mb-md-0">
+                    <h5 class="text-uppercase">Links úteis</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#!" class="text-white">Início</a></li>
+                        <li><a href="#!" class="text-white">Promoções</a></li>
+                        <li><a href="#!" class="text-white">Contato</a></li>
+                        <li><a href="#!" class="text-white">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-12 mb-2 mb-md-0">
+                    <h5 class="text-uppercase">Contato</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-phone-alt"></i> (11) 98765-4321</li>
+                        <li><i class="fas fa-envelope"></i> contato@lojababy.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Rua das Flores, 123, São Paulo</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-social text-center mt-2">
+                <section class="mb-2">
+                    <a class="btn btn-outline-light btn-social m-1" href="#" role="button"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social m-1" href="#" role="button"><i
+                            class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-social m-1" href="#" role="button"><i
+                            class="fab fa-whatsapp"></i></a>
+                </section>
+            </div>
+            <div class="text-center p-2 text-white">
+                © 2024 Loja Baby. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/vitrine.js">
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

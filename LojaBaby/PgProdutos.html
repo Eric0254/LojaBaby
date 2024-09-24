@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto - Loja Baby</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pgProdutos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- Começo Nav -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <a class="logo" href="index.html">Loja Infantil</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mx-auto search-container">
+                    <div class="input-group">
+                        <input type="text" class="form-control search-bar" placeholder="O que você está procurando?">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link efCor" href="#">
+                            <i class="fas fa-user"></i> Entre ou Cadastre-se
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-heart"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Barra de Categorias -->
+        <div class="category-bar txtSbM">
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-white" href="VitrineProd.html">Meninos</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="VitrineProd.html">Meninas</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="VitrineProd.html">Bebês</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- Fim Nav -->
+    <!-- Conteúdo Principal -->
+<main>
+    <section class="produto container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 produto-imagens">
+                <div class="imagem-principal-container p-5">
+                    <img id="imagem-principal"
+                        src="https://cdn.awsli.com.br/2500x2500/1680/1680458/produto/282669759/img_1985-j68mpv2e44.jpeg"
+                        alt="Imagem do produto">
+                    <div class="zoom-square"></div>
+                </div>
+                <div class="miniaturas d-flex justify-content-center mt-3">
+                    <img src="https://cdn.awsli.com.br/2500x2500/1680/1680458/produto/282669759/img_1985-j68mpv2e44.jpeg"
+                        alt="Miniatura 1" class="miniatura img-thumbnail"
+                        data-src="https://cdn.awsli.com.br/2500x2500/1680/1680458/produto/282669759/img_1985-j68mpv2e44.jpeg">
+                    <img src="https://cdn.awsli.com.br/2500x2500/1680/1680458/produto/282669759/img_9915-0l6ybydjrl.jpg"
+                        alt="Miniatura 2" class="miniatura img-thumbnail"
+                        data-src="https://cdn.awsli.com.br/2500x2500/1680/1680458/produto/282669759/img_9915-0l6ybydjrl.jpg">
+                    <img src="https://cdn.awsli.com.br/2500x2500/1680/1680458/produto/282669759/img_9916-5u4zi356xm.jpg"
+                        alt="Miniatura 3" class="miniatura img-thumbnail"
+                        data-src="https://cdn.awsli.com.br/2500x2500/1680/1680458/produto/282669759/img_9916-5u4zi356xm.jpg">
+                    <img src="https://cdn.awsli.com.br/600x700/1680/1680458/produto/282669759/img_1925-ribl1j451p.jpeg"
+                        alt="Miniatura 4" class="miniatura img-thumbnail"
+                        data-src="https://cdn.awsli.com.br/600x700/1680/1680458/produto/282669759/img_1925-ribl1j451p.jpeg">
+                </div>
+            </div>
+
+            <!-- Seção de detalhes do produto -->
+            <div class="col-lg-6 col-md-12 produto-detalhes p-5">
+                <h2>Produto Infantil - Modelo X</h2>
+                <p class="preco-principal">R$ 99,90</p>
+                <p class="parcelamento">até 3x de <span class="valor-parcela">R$ 56,33</span> sem juros</p>
+                <p class="preco-pix">ou <strong>R$ 160,55</strong> via Pix</p>
+                <p>Selecione o tamanho:</p>
+                <div class="form-group">
+                    <select class="form-control" id="tamanho-produto">
+                        <option value="P">P</option>
+                        <option value="M">M</option>
+                        <option value="G">G</option>
+                        <option value="GG">GG</option>
+                    </select>
+                </div>
+
+                <button id="btn-comprar" class="btn btn-primary">
+                    <i class="fas fa-shopping-cart"></i> Comprar Agora
+                </button>
+
+                <button id="btn-lista-desejos" class="btn btn-secondary mt-2">
+                    <i class="fas fa-heart"></i> Adicionar à Lista de Desejos
+                </button>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+        <!-- Descrição do Produto -->
+        <section class="produto-descricao">
+            <h3>Descrição do Produto</h3>
+            <p>
+                Este é um produto infantil de alta qualidade, perfeito para o conforto e bem-estar do seu filho.
+                Feito com materiais macios e duráveis, ideal para o dia a dia ou ocasiões especiais.
+                Disponível em diferentes tamanhos, o Produto Infantil - Modelo X é a escolha certa para quem procura
+                estilo e conforto.
+            </p>
+
+            <br><br><br>
+        </section>
+
+        <section class="product-carousel featured-products">
+            <h3 class="produtos-relacionados produtos-rel">Produtos Relacionados</h3>
+            <br><br>
+            <div class="container">
+                <div class="row">
+                    <!-- Card 1 -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="product-card">
+                            <a href="PgProdutos.html">
+                                <div class="product-image-container">
+                                    <img src="https://cdn.awsli.com.br/600x700/1680/1680458/produto/282669759/img_1985-j68mpv2e44.jpeg"
+                                        alt="Conjunto - Azul">
+                                </div>
+                                <div class="product-info">
+                                    <p>Conjunto - Azul</p>
+                                    <p class="price">R$ 169,00</p>
+                                    <p class="installment">até 3x de R$ 56,33 sem juros</p>
+                                    <p class="pix">ou R$ 160,55 via Pix</p>
+                                </div>
+                                <button class="buy-button">Comprar</button>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="product-card">
+                            <a href="PgProdutos.html">
+                                <div class="product-image-container">
+                                    <img src="https://cdn.awsli.com.br/600x700/1680/1680458/produto/282669759/img_1985-j68mpv2e44.jpeg"
+                                        alt="Conjunto - Azul">
+                                </div>
+                                <div class="product-info">
+                                    <p>Conjunto - Azul</p>
+                                    <p class="price">R$ 169,00</p>
+                                    <p class="installment">até 3x de R$ 56,33 sem juros</p>
+                                    <p class="pix">ou R$ 160,55 via Pix</p>
+                                </div>
+                                <button class="buy-button">Comprar</button>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="product-card">
+                            <a href="PgProdutos.html">
+                                <div class="product-image-container">
+                                    <img src="https://cdn.awsli.com.br/600x700/1680/1680458/produto/282669759/img_1985-j68mpv2e44.jpeg"
+                                        alt="Conjunto - Azul">
+                                </div>
+                                <div class="product-info">
+                                    <p>Conjunto - Azul</p>
+                                    <p class="price">R$ 169,00</p>
+                                    <p class="installment">até 3x de R$ 56,33 sem juros</p>
+                                    <p class="pix">ou R$ 160,55 via Pix</p>
+                                </div>
+                                <button class="buy-button">Comprar</button>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="product-card">
+                            <a href="PgProdutos.html">
+                                <div class="product-image-container">
+                                    <img src="https://cdn.awsli.com.br/600x700/1680/1680458/produto/282669759/img_1985-j68mpv2e44.jpeg"
+                                        alt="Conjunto - Azul">
+                                </div>
+                                <div class="product-info">
+                                    <p>Conjunto - Azul</p>
+                                    <p class="price">R$ 169,00</p>
+                                    <p class="installment">até 3x de R$ 56,33 sem juros</p>
+                                    <p class="pix">ou R$ 160,55 via Pix</p>
+                                </div>
+                                <button class="buy-button">Comprar</button>
+                            </a>
+                        </div>
+                    </div>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </section>
+    </main>
+    <footer class="text-center text-lg-start bg-dark text-white p-5">
+        <!-- Parte única do rodapé -->
+        <div class="container p-3">
+          <div class="row">
+            <!-- Coluna sobre a loja -->
+            <div class="col-lg-4 col-md-6 mb-2 mb-md-0">
+              <h5 class="text-uppercase">Sobre Nós</h5>
+              <p>
+                Loja Baby é especializada em roupas e acessórios para bebês e crianças. Oferecemos produtos de alta qualidade para garantir o conforto e estilo dos pequenos.
+              </p>
+            </div>
+      
+            <!-- Coluna links úteis -->
+            <div class="col-lg-4 col-md-6 mb-2 mb-md-0">
+              <h5 class="text-uppercase">Links úteis</h5>
+              <ul class="list-unstyled">
+                <li><a href="#!" class="text-white">Início</a></li>
+                <li><a href="#!" class="text-white">Promoções</a></li>
+                <li><a href="#!" class="text-white">Contato</a></li>
+                <li><a href="#!" class="text-white">Política de Privacidade</a></li>
+              </ul>
+            </div>
+      
+            <!-- Coluna contato -->
+            <div class="col-lg-4 col-md-12 mb-2 mb-md-0">
+              <h5 class="text-uppercase">Contato</h5>
+              <ul class="list-unstyled">
+                <li><i class="fas fa-phone-alt"></i> (11) 98765-4321</li>
+                <li><i class="fas fa-envelope"></i> contato@lojababy.com</li>
+                <li><i class="fas fa-map-marker-alt"></i> Rua das Flores, 123, São Paulo</li>
+              </ul>
+            </div>
+          </div>
+      
+          <!-- Redes sociais -->
+          <div class="footer-social text-center mt-2">
+            <section class="mb-2">
+              <a class="btn btn-outline-light btn-social m-1" href="#" role="button"><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-outline-light btn-social m-1" href="#" role="button"><i class="fab fa-instagram"></i></a>
+              <a class="btn btn-outline-light btn-social m-1" href="#" role="button"><i class="fab fa-whatsapp"></i></a>
+            </section>
+          </div>
+      
+          <!-- Direitos reservados -->
+          <div class="text-center p-2 text-white">
+            © 2024 Loja Baby. Todos os direitos reservados.
+          </div>
+        </div>
+      </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        const miniaturas = document.querySelectorAll('.miniatura');
+        const imagemPrincipal = document.getElementById('imagem-principal');
+        const zoomSquare = document.querySelector('.zoom-square');
+        miniaturas.forEach(miniatura => {
+            miniatura.addEventListener('click', function () {
+                const novaSrc = this.getAttribute('data-src');
+                imagemPrincipal.src = novaSrc;
+            });
+        });
+
+        imagemPrincipal.addEventListener('mousemove', (e) => {
+            const { left, top, width, height } = imagemPrincipal.getBoundingClientRect();
+            const x = e.pageX - left;
+            const y = e.pageY - top;
+            const zoomSquareSize = 150; 
+            const zoomLevel = 2; 
+            zoomSquare.style.width = `${zoomSquareSize}px`;
+            zoomSquare.style.height = `${zoomSquareSize}px`;
+            let squareX = x - zoomSquareSize / 2;
+            let squareY = y - zoomSquareSize / 2;
+            if (squareX < 0) squareX = 0;
+            if (squareY < 0) squareY = 0;
+            if (squareX + zoomSquareSize > width) squareX = width - zoomSquareSize;
+            if (squareY + zoomSquareSize > height) squareY = height - zoomSquareSize;
+            zoomSquare.style.left = `${e.pageX - zoomSquareSize / 2}px`;
+            zoomSquare.style.top = `${e.pageY - zoomSquareSize / 2}px`;
+            zoomSquare.style.backgroundImage = `url(${imagemPrincipal.src})`;
+            zoomSquare.style.backgroundSize = `${width * zoomLevel}px ${height * zoomLevel}px`;
+            zoomSquare.style.backgroundPosition = `-${squareX * zoomLevel}px -${squareY * zoomLevel}px`;
+            zoomSquare.style.display = 'block';
+        });
+        imagemPrincipal.addEventListener('mouseleave', () => {
+            zoomSquare.style.display = 'none'; 
+        });
+    </script>
+</body>
+
+</html>
